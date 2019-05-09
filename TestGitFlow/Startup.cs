@@ -18,6 +18,7 @@ namespace TestGitFlow
         public Startup(IConfiguration configuration)
         {
             //Configuration = configuration;
+            Configuration = configuration;  // test
         }
 
         public IConfiguration Configuration { get; }
